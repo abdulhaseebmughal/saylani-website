@@ -1,0 +1,1127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* <!-- HEADER START --> */
+#head {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: #96969631;
+    font-weight: 600;
+    gap: 2%;
+
+}
+
+.list .ul {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    list-style: none;
+    color: #454343d5;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+
+}
+
+.list .ul img {
+    margin-left: 30px;
+    margin-right: 7px;
+    width: 13px;
+    height: 13px;
+    filter: grayscale(100%) brightness(85%) contrast(100%);
+}
+
+.list .li {
+    display: flex;
+    gap: 25px;
+}
+
+.Visit {
+    margin-left: 20px;
+}
+
+.flags img {
+    width: 20px;
+    height: 20px;
+}
+
+.flags {
+    display: flex;
+    gap: 12px;
+}
+
+.language-select select {
+    width: 80px;
+    height: 32px;
+    padding: 8%;
+    margin-left: 600%
+}
+
+
+@media (max-width: 768px) {
+    #head {
+        margin: 0;
+        padding: 0%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100px;
+        background-color: #96969631;
+        font-weight: 600;
+        gap: 12%;
+    }
+
+    header ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .language-select select {
+        width: 80px;
+        height: 32px;
+        padding: 8%;
+        margin-left: 10%;
+    }
+}
+
+/* <!-- HEADER END  --> */
+
+/* <!-- NAVIGATION BAR START --> */
+
+#navbar {
+    width: 100%;
+    height: 82px;
+    background-color: white;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .1);
+    display: flex;
+    align-items: center;
+    position: sticky;
+    scroll-behavior: smooth;
+    top: 0;
+    z-index:100;
+}
+
+nav .ul2 {
+    margin-left: 250px;
+}
+
+.saylani-logo {
+    width: 200px;
+    height: 54px;
+    margin-left: 10px;
+}
+
+.ul2 {
+    color: #696766;
+    display: flex;
+    list-style: none;
+    gap: 33px;
+    height: 35px;
+    align-items: center;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+@keyframes span-li2-7 {
+    0% {
+        color: #0165b2;
+    }
+
+    25% {
+        color: #8dc73f;
+    }
+
+    50% {
+        color: #0165b2;
+    }
+
+    75% {
+        color: #8dc73f;
+    }
+
+    100% {
+        color: #0165b2;
+    }
+}
+
+.span-li2-7 {
+    animation: span-li2-7 2s infinite;
+}
+
+.ul-div {
+    display: flex;
+    width: 100%;
+    height: max-content;
+    height: 51px;
+    align-items: center;
+}
+
+.span-li2 {
+    color: #0165b2;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+}
+
+.btn1 button {
+    width: 170px;
+    height: 48px;
+    background-color: #0165b2;
+    color: white;
+    margin-left: 30px;
+    border-radius: 5px;
+    border-color: #0165b2;
+    outline: none;
+
+}
+
+.btn1 button:hover {
+    transform: scale(1.1);
+}
+
+.btn2 button {
+    width: 170px;
+    height: 48px;
+    background-color: #8dc73f;
+    color: white;
+    margin-left: 8px;
+    border-radius: 5px;
+    border-color: #0165b2;
+    outline: none;
+}
+
+.btn2 button:hover {
+    transform: scale(1.1);
+}
+
+/* <!-- NAVIGATION END --> */
+
+/* <!-- SECTION 1 START --> */
+
+#section-image {
+    background-image: url(https://saylaniwelfare.com/static/media/carousal_background.d77d94e41c5a71ae581f.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 71vh;
+    z-index: -1;
+
+}
+
+.welcome-saylani {
+    height: 72vh;
+    width: 1496px;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#container1 {
+    display: flex;
+}
+
+#container2 {
+    display: flex;
+    justify-content: center;
+    width: 692px;
+    height: 521px;
+    margin-right: 20px;
+}
+
+.welcome-span-saylani {
+    color: #8dc73f;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.welcome-span {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.welcome-span2 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.welcome-span3 {
+    color: #0165b2;
+    font-weight: 600;
+}
+
+.btn3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 205px;
+    height: 55px;
+    background-color: initial;
+    border: 1px solid #424242;
+}
+
+.btn3 img {
+    width: 20px;
+}
+
+/* <!-- SECTION 1 END --    > */
+
+/* <!-- SECTION 2 START FROM HERE --> */
+
+#green-center-section-one {
+    background-color: #f1fcdc;
+    max-width: 98%;
+    height: 130px;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding: 5% 2%;
+}
+
+.undeer-green-main-div-section-one {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.general-input-Rs span {
+    background-color: #424242;
+    color: white;
+    padding: 16.5px;
+    height: 52px;
+    font-size: 14px;
+}
+
+.general-input-Rs input {
+    padding: 15px;
+    border: 2px solid rgb(255, 255, 255);
+    outline: none;
+}
+
+.Rs {
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.general {
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.inside-input1-section-two {
+    display: flex;
+    gap: 60px;
+}
+
+.inside-input1-section-two button {
+    font-weight: 600;
+    align-items: center;
+    padding: 0.5%;
+    border-radius: 8px;
+    background-color: white;
+    object-fit: contain;
+    padding: 16.5px 30px;
+    border: 1px solid white;
+}
+
+.inside-input1-section-two button:hover {
+    transform: scale(1.2);
+    background-color: #424242;
+    color: white;
+    transition: background-color 1.2s ease;
+}
+
+#btn8 {
+    color: white;
+    background-color: #8dc73f;
+}
+
+/* <!-- END SECTION 2  --> */
+
+/* <!-- SECTION THREE 3 STARTS FROM HERE --> */
+
+#image-section-three {
+    width: 97.3%;
+    height: 70vh;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 2.5%;
+}
+
+#image-section-three img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+/* <!-- SECTION THREE 3 ENDS  --> */
+
+/* <!-- SECTION FOUR 4 STARTS FROM HERE --> */
+
+#doing-section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#doing-section-four p {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40.5px;
+    margin-bottom: 2.5%;
+}
+
+/* <!-- SECTION FOUR 4 ENDS  --> */
+
+/* <!-- SECTION FIVE 5 STARTS FROM HERE --> */
+
+#section-five {
+    width: 97VW;
+    display: flex;
+    height: 170px;
+}
+
+.main-section-four-div {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 28px;
+}
+
+/* <!-- logo-1 --> */
+.logo1 {
+    width: 15%;
+    height: 180px;
+    background-color: #f1fcdc;
+    flex-direction: column;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* <!-- logo-2 --> */
+.logo2 {
+    width: 15%;
+    height: 180px;
+    background-color: #f1fcdc;
+    flex-direction: column;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* <!-- logo-3 --> */
+.logo3 {
+    width: 15%;
+    height: 180px;
+    background-color: #f1fcdc;
+    flex-direction: column;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* <!-- logo-4 --> */
+.logo4 {
+    width: 15%;
+    height: 180px;
+    background-color: #f1fcdc;
+    flex-direction: column;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* <!-- logo-5 --> */
+.logo5 {
+    width: 15%;
+    height: 180px;
+    background-color: #f1fcdc;
+    flex-direction: column;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* <!-- logo-6 --> */
+.logo6 {
+    width: 15%;
+    height: 180px;
+    background-color: #f1fcdc;
+    flex-direction: column;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* span class */
+.text-section-5 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+/* HOVER EFFECT AT ALL */
+.logo1:hover,
+.logo2:hover,
+.logo3:hover,
+.logo4:hover,
+.logo5:hover,
+.logo6:hover {
+    transform: scale(1.1);
+}
+
+/* <!-- SECTION FIVE 5 ENDS  --> */
+
+/* <!-- SECTION six 6 STARTS FROM HERE --> */
+
+#images-section-six {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+#images-section-six .Donate {
+    width: 460px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #8dc73f;
+    color: white;
+    outline: none;
+}
+
+.S6-img-1 {
+    background-image: url(https://res.cloudinary.com/saylani-welfare/image/upload/v1676274365/website-images/dynamic/b0abff1d-a3f9-49a7-9d58-273bbc735561.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    width: 480px;
+    height: 350px;
+    border-radius: 10px;
+    padding: 10px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    filter: brightness(60%);
+}
+
+.S6-img-1:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+
+.S6-img-2 {
+    background-image: url(https://res.cloudinary.com/saylani-welfare/image/upload/v1720264120/website-images/dynamic/c029347b-b528-4c27-8a1b-39366f5349d7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    width: 480px;
+    height: 350px;
+    border-radius: 10px;
+    padding: 10px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    filter: brightness(60%);
+}
+
+.S6-img-2:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+.S6-img-3 {
+    background-image: url(https://res.cloudinary.com/saylani-welfare/image/upload/v1654923364/website-images/dynamic/c6fdf6af-51d5-4388-97ef-6cf10eb73aca.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    width: 480px;
+    height: 350px;
+    border-radius: 10px;
+    padding: 10px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    filter: brightness(60%);
+}
+
+.S6-img-3:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+.S6-img-1 button,
+.S6-img-2 button,
+.S6-img-3 button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 270px;
+}
+
+/* <!-- SECTION si 6 ENDS  --> */
+
+/* SECTION 7 */
+
+.section-7 {
+    margin-top: 60px;
+    display: flex;
+}
+
+.main-image {
+    width: 730px;
+    height: 550px;
+    background-image: url(https://i.tribune.com.pk/media/images/2178912-image-1584559620/2178912-image-1584559620.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+    background-color: #0165b2;
+    margin-left: 20px;
+    border-top-left-radius: 30%;
+}
+
+.box-green {
+    background-color: #8dc73f;
+    height: 282px;
+    width: 365px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    border-top-left-radius: 25%;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #333333;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.project img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.project h2 {
+    font-size: 1.2em;
+    color: #0165b2;
+    margin: 0;
+}
+
+.project p {
+    margin: 5px 0 0 0;
+    font-size: 0.9em;
+    color: #666666;
+}
+
+/* RIGHT CSS */
+.container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #333333;
+    font-weight: 600;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.project img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.project h2 {
+    font-size: 1.2em;
+    color: #0165b2;
+    margin: 0;
+}
+
+.project p {
+    margin: 5px 0 0 0;
+    font-size: 0.9em;
+    color: #666666;
+}
+
+/* RIGHT CSS END */
+
+.section-8 {
+    display: flex;
+    align-items: center;
+    background-image: url(https://saylaniwelfareusa.com/static/media/upcoming_background.a669f19ea2aee3c7e10f.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 96vw;
+    height: 60vh;
+    margin-left: 21px;
+    background-color: #1d659c;
+}
+
+.S81 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 350px;
+    height: 300px;
+    margin-left: 20px;
+    text-align: center;
+    color: white;
+}
+
+.S81 img {
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+    object-fit: scale-down;
+    margin-left: 10px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 50%;
+}
+/* <!-- SECTION NINE 9 START --> */
+.text2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 20px;
+    display: flex;
+    color: black;
+}
+
+.text2 p{
+    color: #8dc73f;
+}
+/* <!-- SECTION NINE 9 END --> */
+/* <!-- SECTION TEN 10 START --> */
+
+.section-10{
+background-color: #eeeeee;
+width: 96vw;
+height: 440px;
+margin-left: 20px;
+margin-right: 20px;
+padding: 20px;
+}
+
+.inside-10{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+width: 90vw;
+margin-left:20px ;
+margin-right: 20px;
+}
+
+.inside-10 img{
+    width:110px ;
+    height: 110px;
+    border-radius: 50%;
+}
+
+.section-10 p{
+    font-size: 14px;
+
+}
+
+.p1{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0165b2;
+    text-align: center;
+}
+.p2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.p3{
+    line-height: 2;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 25px;
+}
+.button {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.button-prev {
+    background-color: white;
+    color: black;
+}
+.button-next {
+    background-color: #8bc34a;
+    color: white;
+}
+
+/* <!-- SECTION TEN 10 END --> */
+
+
+.section-11-para{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: #424242;
+}
+
+.section-11{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    top: 0;
+    z-index: -1;
+}
+
+.section-11 img{
+    width: 355px;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+    transition:filter 0.3s ease;
+    filter: brightness(50%);
+    border: 1px solid black;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px  ;
+    border-bottom: none;
+}
+
+.section-11 img:hover{
+    filter: brightness(1);
+}  
+
+/* .section-11 div{
+    border: 1px solid black;
+} */
+
+.section-11 p{
+font-size: 16px;
+font-weight: 600;
+line-height:  24px;
+}
+
+.org{
+    font-size: 12px;
+    font-weight: 400;
+    line-height:  18.858px;  
+    color: #424242;
+}
+
+#play-btn{
+    width: 50px;
+    height: 50px;
+    position: relative;
+        bottom: 230px;
+        left: 155px;
+        cursor: pointer;
+}
+
+.img1{
+    height: 380px;
+    }
+
+   /* SECTION 11 END HERE */
+
+   /* SECTION 12 START */
+
+   .section-12{
+display: flex;
+align-items: center;
+    gap: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+   }
+
+   .section-12 img{
+    width: 355px;
+    height: 200px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px  ;
+    object-fit: cover;
+   }
+
+   .section-12 div{
+    border: 1px solid black;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px  ;
+    background-color: #eeeeee;
+    border: none;
+    border-radius: 10px;
+   }
+
+
+   .news-btns{
+    color: white;
+    background-color: #8dc73f;
+    border-radius:  5px;
+    font-size: 10px;
+    line-height: 15px;
+    font-weight: 400;
+    padding:6px ;
+    width: 105px;
+    border: none;
+    margin: 20px;
+    margin-bottom: 2px;
+   
+   }
+
+
+.news-btn2 img{
+width: 20px;
+height: 20px;
+}
+.news-btn2{
+width: 60px;
+height: 40px;
+background-color: white;
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+border-radius: 5px;
+border: none;
+margin: 20px;
+margin-top: 10px;
+}
+.news-btn2:hover{
+transform: scale(1.2);
+}
+
+.news-p{
+    margin: 20px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.section-13{
+    background-image: url(https://www.saylaniwelfare.com/static/media/guide_back.3a5127e910c15a49f875.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #0165b2;
+    width: 96vw;
+    height: 265px;
+    z-index: -1;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40.5px;
+    color: #fff;
+    text-align: center;
+    padding-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
+.section-13 input{
+width: 680px;
+height: 50px;
+border-radius:5px;
+border: none;
+padding-left: 17.5px;
+}
+
+#input-13-1{
+    background-color: initial;
+    border: 1px solid white;
+}
+
+#input-13-1::placeholder{
+color: #a2b8ca;
+}
+
+#input-13-2::placeholder{
+    color: black;
+    font-weight: 600;
+    text-align: center;
+}
+
+.portion-4-1 .logo-s{
+    width: 300px;
+    height: 80px;
+    margin: 52px;
+    margin-bottom: 0;
+}
+
+.portion-4-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.social-icons{
+    display: flex;
+    margin-left: 80px;
+    gap: 15px;
+    margin-top: 30px;
+}
+.social-icons img{
+    width: 40px;
+    height: 40px;
+}
+
+
+.foot-s-2{
+    display: flex;
+flex-direction: column;
+gap: 20px;
+color: white;
+margin-top: 60px;
+margin-left: 140px;
+}
+
+.foot-s-2 ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.foot-s-2 h3{
+font-size: 20px;
+font-weight: 600;
+
+}
+.portion{
+    display: flex;
+}
+
+.flex-footer-2{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-footer-2 img{
+    width: 220px;
+    height: 140px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.flex-footer-3{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 10px;
+}
+
+.line-container {
+    display: flex;              /* Use Flexbox for centering */
+    justify-content: center;    /* Center horizontally */
+}
+
+.custom-hr {
+    width: 90%;                 /* Set the width to 70% of the parent container */
+    border: none;               /* Remove default border */
+    height: 1px;                /* Set the height of the line */
+    background-color: #585858;    /* Set the color of the line */
+}
+
+.flex-footer-4{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.main-footer{
+    background-image: url(https://saylaniwelfareusa.com/static/media/upcoming_background.a669f19ea2aee3c7e10f.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 100%;
+    height: 585px;
+    margin-top: 50px;
+    z-index: -1;
+}
+
+footer{
+    background-color: #464544;
+    z-index: 1;
+}
